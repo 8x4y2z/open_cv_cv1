@@ -1,0 +1,5 @@
+*.zip
+CMakeCache.txt
+*.cmake
+Makefile
+CMakeFiles/
