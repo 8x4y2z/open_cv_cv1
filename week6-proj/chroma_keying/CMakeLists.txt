@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.12)
 
-PROJECT(Week5)
+PROJECT(Week6)
 SET(CMAKE_CXX_STANDARD 11)
 
 #SET(OpenCV_DIR /home/hp/workfolder/OpenCV-Installation/installation/OpenCV-master/lib/cmake/opencv4)
@@ -39,4 +39,5 @@ MACRO(add_example name)
   TARGET_LINK_LIBRARIES(${name} ${OpenCV_LIBS} )
 ENDMACRO()
 
+# add_example(submission)
 add_example(submission)
